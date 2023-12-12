@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Owrel</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/extra.css')}}">
+
+  <script>
+    words = ["Python Developer", "NLP Developer", "Coffee Addict"];
+  </script>
+  <script src="{{url_for('static',filename='js/script.js')}}" async></script>
+  <script src="{{url_for('static',filename='js/github-cards.js')}}" async></script>
+
+</head>
+
+<header>
+
+
+
+
+
+
+
+</header>
+
+
+
+<body class="bg-neutral-950  font-mono pb-24">
+
+  <div class="mx-auto text-white flex max-w-6xl items-center justify-between pt-20 lg:px-8">
+    <div class="flex lg:flex-1">
+      <span class="text-xl ">Aurélien SIMON</span>
+    </div>
+    <div class="flex lg:justify-end">
+      <a href="#">
+        <span class="text-xl ">Contact me</span>
+      </a>
+    </div>
+  </div>
+  <div class="mx-auto text-white flex max-w-6xl items-center justify-between pt-12 lg:px-8">
+
+    <div class="flex text-white ">
+      <p class="text-8xl font-semibold  " id="word"></p>
+      <p class="text-8xl blink">|</p>
+    </div>
+
+
+  </div>
+
+  <div class=" mx-auto text-white max-w-6xl pt-24 px-8">
+
+    <div class="inline-block w-full">
+      <div class="float-left max-w-4xl text-justify pr-10">
+        Greetings! I'm Aurélien Simon, a 24-year-old with a passion for Computer Science. My expertise covers computational
+        linguistics, machine learning, and programming in Python, C++, and Java. My educational journey includes a technical
+        foundation with a DUT and License, and I further delved into research with a Master's degree.
+        
+        I've applied my skills at <a class="underline" href="https://see-d.fr/">See-d</a> and shared knowledge as a tutor at <a
+          class="underline" href="https://becomtech.fr">BecomTech</a>. Additionally, I've contributed to research at the
+        University of Potsdam, where I worked on prototyping tools for Answer Set Programming.
+      </div>
+
+      <div class="float-right">
+        <div class="  grayscale justify-end">
+          <img src="{{url_for('static',filename='img/moi.jpg')}}" alt=""
+            class="border-white border-2  h-52 rounded-2xl ">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="h-9"></div>
+    <div class="columns-10 max-w-2xl">
+      <a href="https://www.linkedin.com/in/aurélien-simon/"><img src="{{url_for('static',filename='img/linkedin.png')}}"
+          alt="" class="h-8 w-auto"></a>
+      <a href="https://github.com/owrel"><img src="{{url_for('static',filename='img/github-mark-white.svg')}}" alt=""
+          class="h-8 w-auto"></a>
+      <a href="mailto:aureliensimon.contact@gmail.com"> <img src="{{url_for('static',filename='img/at.jpg')}}" alt=""
+          class="h-8 w-auto rounded-2xl"></a>
+
+    </div>
+  </div>
+
+
+
+
+  </div>
+
+  <div class="h-px max-w-6xl bg-white m-auto mt-24"></div>
+
+  <div class="mx-auto text-white max-w-6xl pt-12 px-8">
+    <div class="text-right text-3xl w-full pb-10">
+      Personal projects.
+    </div>
+    <div class="pb-8">
+      <div class="text-2xl pb-5">
+        QRShare
+      </div>
+      <div class="w-full inline-block">
+        <div class="text-justify max-w-3xl float-left pr-10">
+          While traveling with a friend who loves taking street photos in a foreign place, we chatted about how tricky it could be
+          to share those pictures with the people she snaps, especially if we don't speak their language. So, we discussed about how to do it.
+          
+          We came up with the idea of using QR codes to share pictures easily. Here's the deal: the photographer takes pics, upload
+          them on a server, and gets a QR code. The model scans the QR code, and toudoum toudoum *washing machine drum roll* ! You're in a folder with the pics. From there, you can
+          do stuff like download the pics, send them to an email, or even delete them if you want. Simple, right?
+        </div>
+        <div class="github-card float-right border-white border-2" data-github="owrel/clindoc" data-width="40%" data-height="1" data-theme="default" >
+        <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+        </div>
+      </div>
+      <div class="italic text-sm">
+        Python, Flask, Docker, TailwindCSS 
+      </div>
+
+    </div>
+
+    <div>
+      <div class="text-2xl pb-5 text-right">
+        
+      </div>
+      <div class="w-full inline-block">
+        <div class="text-justify max-w-3xl float-right pl-10">
+          While traveling with a friend who loves taking street photos in a foreign place, we chatted about how tricky it
+          could be
+          to share those pictures with the people she snaps, especially if we don't speak their language. So, we discussed
+          about how to do it.
+    
+          We came up with the idea of using QR codes to share pictures easily. Here's the deal: the photographer takes pics,
+          upload
+          them on a server, and gets a QR code. The model scans the QR code, and toudoum toudoum *washing machine drum roll*
+          ! You're in a folder with the pics. From there, you can
+          do stuff like download the pics, send them to an email, or even delete them if you want. Simple, right?
+        </div>
+        <div class="github-card float-left border-white border-2" data-github="owrel/clindoc" data-width="full"
+          data-height="400" data-theme="default"></div>
+        <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+
+</html>
