@@ -1,0 +1,3 @@
+[submodule "github-cards"]
+	path = github-cards
+	url = https://github.com/owrel/github-cards.git
